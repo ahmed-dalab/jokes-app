@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.btn {
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(231, 92, 189);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #f1f1f1;
+  
+}
+.btn button:hover {
+    background-color: aliceblue;
+}
+
+.loading {
+    font-size: 15px;
+    text-align: center;
+}
+
+.jokes {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #f1f1f1;
+    border-radius: 6px;
+    box-shadow: 2px 3px 4px #f1f1f1;
+}
+.jokes h1 {
+    padding: 10px;
+    font-size: 25px;
+}
+.jokes p {
+    padding: 8px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .app {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .jokes h1 {
+      font-size: 20px;
+    }
+  
+    .jokes p {
+      font-size: 14px;
+    }
+  
+    .btn button {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+
+    .jokes h1 {
+      font-size: 18px;
+    }
+  
+    .jokes p {
+      font-size: 12px;
+    }
+  
+    .btn button {
+      font-size: 16px;
+      padding: 8px;
+    }
+  }

@@ -32,7 +32,7 @@ function App() {
   return (
     <div className='app'>
       <div className="btn">
-      <button onClick={fetchJokes}>Fetch Joke</button>
+      <button disabled={loading} onClick={fetchJokes}>Generate Joke</button>
       </div>
       <div className="loading">
         {loading && <h4>Loading...</h4>}
